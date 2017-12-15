@@ -2,6 +2,8 @@ FROM  guocl85/leanote-xenial:base
 
 ENV LEANOTE_VERSION=2.6
 
+# version v0.1
+
 RUN apt update \
 && apt install -y wget \
 && wget https://iweb.dl.sourceforge.net/project/leanote-bin/${LEANOTE_VERSION}/leanote-linux-amd64-v${LEANOTE_VERSION}.bin.tar.gz \
